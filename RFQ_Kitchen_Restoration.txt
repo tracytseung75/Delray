@@ -1,0 +1,92 @@
+Based on the exhaustive architectural research and quantitative analysis performed for your kitchen at **7458 Victory Ln, Apt 10104**, I have prepared a professional **Request for Quote (RFQ)**. 
+
+Richard can send this document directly to the recommended contractors (**Gerard at OnCall** or **Maria at Wallpaper Waves**) to ensure they understand the technical requirements of the 1987 Chardonnay model and the complexity of the 30-year-old removal.
+
+***
+
+# Project Specification & Request for Quote (RFQ)
+**Project Title:** Kitchen Wallpaper Restoration – 80s Aesthetic Preservation  
+**Site:** Huntington Pointe, 7458 Victory Ln, Unit 10104, Delray Beach, FL 33446  
+**Client:** Richard Deutsch (97 years of age)
+
+## 1. Project Scope & Technical Requirements
+The objective is to remove existing wallcoverings installed in 1987 and replace them with a modern equivalent that replicates the original "printed line" aesthetic (high visual interest vertical striae).
+
+*   **Removal:** Surgical removal of a single layer of 30-year-old wallpaper. Installer must assume clay-based adhesive has bonded to the drywall.[1]
+*   **Surface Preparation:** **Mandatory Level 5 Skim Coat.** The new pattern (vertical pinstripe) acts as a ruler; the surface must be glass-smooth and primed with a high-performance sealer (e.g., Zinsser Gardz or Roman RX-35) to prevent bubbling.
+*   **Installation:** Expert hanging of either 54" commercial vinyl or 27" residential non-woven. 
+    *   **Mandatory Technique:** "Reverse Hanging" (alternating every other strip 180°) to eliminate seam shading and paneling common in vertical textures.
+*   **Safety/Resident Comfort:** Use only **Zero-VOC adhesives** (e.g., Roman PRO-880). No chemical strippers; steam stripping only to protect the respiratory health of the 97-year-old resident.
+
+## 2. Quantitative Surface Analysis
+Calculations are based on the Huntington Pointe **Chardonnay Model** floor plan (1,728 sq. ft.) and site-specific orientation including the Refrigerator Bay.[2, 3]
+
+### A. Gross Preparation Area (Computation)
+Used for removal and skim-coat labor estimation.
+*   **Formula:** $Area_{Gross} = (Perimeter_{Main} + Perimeter_{Bay}) \times Height_{Ceiling}$
+*   **Main Perimeter:** $(14' \text{ L} + 8' \text{ W}) \times 2 = 44 \text{ linear feet}$.
+*   **Bay Perimeter:** $3' \text{ Back} + 2.5' \text{ Right Side} = 5.5 \text{ linear feet}$.
+*   **Total Volume:** $49.5 \text{ lin ft} \times 8' \text{ Height} = \mathbf{396 \text{ Gross Sq. Ft.}}$
+
+### B. Net Installable Area (Target Coverage)
+Used for final material ordering and installation labor.
+*   **Formula:** $Area_{Net} = Area_{Gross} - (Area_{Cabinets} + Area_{Openings})$
+*   **Architectural Deductions:** Cabinet footprint (~132 sq ft) + Pass-through window and Pantry doors (~52 sq ft) + Eat-in slider window 4'×4' (~16 sq ft).
+*   **Net Target:** $396 - (132 + 68) = \mathbf{196 \text{ Net Sq. Ft.}}$
+
+
+## 2A. Apartment Layout Context (For Bid Consistency)
+The kitchen is in the Huntington Pointe Chardonnay model (built 1987), with a hybrid galley/U-shape and a refrigerator bay extension.
+Key geometry used for estimating:
+- Main wall run around sink/counter zone
+- Refrigerator bay back wall: 3.0 ft
+- Refrigerator bay right side return: 2.5 ft
+- Ceiling height assumption: 8.0 ft
+
+### Gross Area Calculation (Preparation/Removal Basis)
+Gross area is used for removal, prep, and skim-coat effort.
+
+Formula:
+- `Area_Gross = (Perimeter_Main + Perimeter_Bay) x Height_Ceiling`
+
+Inputs:
+- `Perimeter_Main = (14 + 8) x 2 = 44.0 linear ft`
+- `Perimeter_Bay = 3.0 + 2.5 = 5.5 linear ft`
+- `Height_Ceiling = 8.0 ft`
+
+Computation:
+- `Area_Gross = (44.0 + 5.5) x 8.0 = 49.5 x 8.0 = 396 sq ft`
+
+### Net Area Calculation (Material/Install Basis)
+Net area is used for material ordering and final installation labor.
+
+Formula:
+- `Area_Net = Area_Gross - (Area_Cabinets + Area_Openings)`
+
+Deductions:
+- `Area_Cabinets ~= 132 sq ft`
+- `Area_Openings ~= 68 sq ft` (pass-through + pantry doors + eat-in slider 4'x4')
+
+Computation:
+- `Area_Net = 396 - (132 + 68) = 196 sq ft`
+- Ordering target: `~195 sq ft`
+
+## 3. Preferred Material Options
+Richard is currently choosing between a commercial-grade baseline and a residential alternative that provides easier manipulation around the Chardonnay model's overhead soffits.
+
+| Material Option | SKU/Link | Dimensions | Qty (inc. 15% Waste) |
+| :--- | :--- | :--- | :--- |
+| **Momentum Lithic Chiffon** | [AVF12-073](https://momentumtextilesandwalls.com/products/09496166) | 54" Commercial | 18 Linear Yards |
+| **York Line Stripe (Putty)** | [OI0666](https://www.yorkwallcoverings.com/ywd-f06-line-stripe-wallpaper-putty) | 27" Residential | 5 Double Rolls |
+
+## 4. Labor Benchmark Targets
+Quotes should be competitive with current 2026 local benchmarks for Palm Beach County.
+*   **Residential (27") Benchmark:** **$1,250.00** (Full removal, prep, and hang).
+*   **Commercial (54") Benchmark:** **$1,550.00** (Includes $300 difficulty premium for heavy material handling in narrow bays).
+
+***
+
+### Recommended Contractors for Direct Quote:
+1.  **OnCall Wallpapering (Gerard):** 646-729-6875. Highly recommended for vertical pattern alignment and meticulous prep.
+2.  **Wallpaper Waves LLC (Maria & Juan):** 561-969-8025. Noted for friendly, senior-supportive service and clean work environments.
+3.  **Diamond Finish Wallpaper (Boca Raton):** Specialist in Type II vinyl and "tricky angles" in kitchen layouts.

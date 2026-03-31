@@ -1,0 +1,80 @@
+# Project Specification & Request for Quote (RFQ)
+
+Project Title: Kitchen Wallpaper Restoration - 80s Aesthetic Preservation
+Site: Huntington Pointe, 7458 Victory Ln, Unit 10104, Delray Beach, FL 33446
+Client: Richard Deutsch (97 years of age)
+
+## 1) Project Scope & Technical Requirements
+Objective: Remove existing wallcoverings (installed circa 1987) and install a modern equivalent that preserves the original "printed line" vertical aesthetic.
+
+- Removal: Surgical removal of one existing wallpaper layer. Assume legacy clay-based adhesive bonded to drywall.
+- Surface Preparation: Mandatory Level 5 skim coat where required; surface must be smooth and fully sealed/primed.
+- Primer/Sealer: High-performance sealer required (example equivalents: Zinsser Gardz or Roman RX-35).
+- Installation: Expert hanging of either 54" commercial vinyl or 27" residential non-woven.
+- Mandatory Technique: Reverse hanging (alternate every other strip 180 degrees) to minimize seam shading/paneling in vertical textures.
+- Safety/Resident Comfort: Zero-VOC adhesive required (example equivalent: Roman PRO-880). No harsh chemical stripping; steam/manual-safe removal only.
+
+## 2) Apartment Layout Context + Area Calculations
+Kitchen geometry is based on the Chardonnay model (1,728 sq ft) with a hybrid galley/U-shape and a refrigerator bay extension.
+
+Layout assumptions used for bid consistency:
+- Main perimeter dimensions: 14 ft by 8 ft
+- Refrigerator bay: 3.0 ft back wall + 2.5 ft right-side return
+- Ceiling height: 8.0 ft
+
+### Gross Area (Prep/Removal Basis)
+Formula:
+- Area_Gross = (Perimeter_Main + Perimeter_Bay) x Height_Ceiling
+
+Inputs:
+- Perimeter_Main = (14 + 8) x 2 = 44.0 linear ft
+- Perimeter_Bay = 3.0 + 2.5 = 5.5 linear ft
+- Height_Ceiling = 8.0 ft
+
+Computation:
+- Area_Gross = (44.0 + 5.5) x 8.0 = 49.5 x 8.0 = 396 sq ft
+
+### Net Area (Material/Install Basis)
+Formula:
+- Area_Net = Area_Gross - (Area_Cabinets + Area_Openings)
+
+Deductions:
+- Area_Cabinets approximately 132 sq ft
+- Area_Openings approximately 68 sq ft (pass-through + pantry doors + eat-in slider 4'x4')
+
+Computation:
+- Area_Net = 396 - (132 + 68) = 196 sq ft
+- Ordering target: approximately 195 sq ft
+
+## 3) Preferred Material Options
+- Momentum Lithic Chiffon (54" commercial): approx. 18 linear yards (incl. 15% waste)
+  Link: https://momentumtextilesandwalls.com/products/09496166
+- York Line Stripe (Putty) (27" residential): approx. 5 double rolls (incl. 15% waste)
+  Link: https://www.yorkwallcoverings.com/ywd-f06-line-stripe-wallpaper-putty
+
+## 4) Labor Benchmark Targets (Palm Beach County, 2026)
+- Residential 27" benchmark: $1,250.00 (full removal, prep, and hang)
+- Commercial 54" benchmark: $1,550.00 (includes difficulty premium for heavier material handling in narrow bays)
+
+## 5) Required Quote Format (Line Items)
+Please provide a written quote with these line items:
+1. Wallpaper removal labor
+2. Surface prep / skim coat labor
+3. Primer/sealer materials
+4. Installation labor
+5. Total labor
+6. Assumptions / exclusions
+7. Warranty terms (labor + workmanship)
+8. Earliest start date + estimated duration
+
+Please also confirm in writing:
+- Level 5 skim readiness
+- Reverse hanging method
+- Zero-VOC adhesive usage
+- Steam/manual-safe removal approach
+
+## 6) Recommended Contractors
+1. OnCall Wallpapering (Gerard): 646-729-6875
+2. Wallpaper Waves LLC (Maria & Juan): 561-969-8025
+3. Diamond Finish Wallpaper (Boca Raton)
+
