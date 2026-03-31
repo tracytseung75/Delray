@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2000" viewBox="0 0 3000 2000" role="img" aria-labelledby="title desc">
-  <title id="title">Kitchen Layout Diagram - Galley</title>
-  <desc id="desc">Low fidelity contractor plan based on site photos: galley kitchen with pass-through and appliance wall.</desc>
+  <title id="title">Kitchen Layout Diagram - Sketch Matched v2</title>
+  <desc id="desc">Low-fi plan matched to hand sketch with pass-through, stove, counter runs, fridge box, sink, dishwasher, windows, and pantry walk-in.</desc>
 
   <defs>
     <marker id="arrow" markerWidth="14" markerHeight="14" refX="7" refY="7" orient="auto-start-reverse">
@@ -10,85 +10,95 @@
       .bg { fill: #f8fafc; }
       .frame { fill: #ffffff; stroke: #cbd5e1; stroke-width: 2; }
       .wall { fill: none; stroke: #0f172a; stroke-width: 8; }
-      .counter { fill: #e2e8f0; stroke: #64748b; stroke-width: 2; }
-      .appliance { fill: #f1f5f9; stroke: #334155; stroke-width: 2; }
-      .opening { fill: #fef3c7; stroke: #b45309; stroke-width: 2; }
+      .zone { fill: #eef2ff; stroke: #6366f1; stroke-width: 2; }
+      .fixture { fill: #f1f5f9; stroke: #334155; stroke-width: 2; }
+      .open { fill: #fef3c7; stroke: #b45309; stroke-width: 2; }
       .dim { fill: none; stroke: #475569; stroke-width: 3; marker-start: url(#arrow); marker-end: url(#arrow); }
       .guide { fill: none; stroke: #94a3b8; stroke-width: 2; stroke-dasharray: 8 8; }
-      .label { font-family: Inter, Arial, sans-serif; fill: #0f172a; font-size: 46px; font-weight: 700; }
-      .sub { font-family: Inter, Arial, sans-serif; fill: #334155; font-size: 32px; font-weight: 600; }
-      .note { font-family: Inter, Arial, sans-serif; fill: #475569; font-size: 28px; }
-      .zone { font-family: Inter, Arial, sans-serif; fill: #1e293b; font-size: 27px; font-weight: 600; }
+      .label { font-family: Inter, Arial, sans-serif; fill: #0f172a; font-size: 42px; font-weight: 700; }
+      .sub { font-family: Inter, Arial, sans-serif; fill: #334155; font-size: 29px; font-weight: 600; }
+      .note { font-family: Inter, Arial, sans-serif; fill: #475569; font-size: 25px; }
     </style>
   </defs>
 
   <rect x="0" y="0" width="3000" height="2000" class="bg"/>
   <rect x="90" y="90" width="2820" height="1820" rx="20" class="frame"/>
 
-  <text x="150" y="190" class="label">Kitchen Layout - Low-Fi Contractor Diagram (Photo-Corrected)</text>
-  <text x="150" y="245" class="note">Galley orientation with open entry, pass-through opening, and rear appliance wall. Dimensions are quoting assumptions.</text>
+  <text x="150" y="190" class="label">Kitchen Layout - Sketch Matched (v2)</text>
+  <text x="150" y="245" class="note">Includes sink + dishwasher on lower wall as shown in latest sketch. Field verify dimensions before install.</text>
 
-  <!-- Overall kitchen envelope (assumed 14 ft x 8 ft) -->
-  <rect x="420" y="420" width="1680" height="960" class="wall"/>
+  <!-- Main shell / walls -->
+  <path class="wall" d="M340,540 L1000,540 L1000,585 L1495,585 L1495,540 L2360,540 L2360,1360 L1900,1360 L1900,1435 L1610,1435 L1610,1360 L910,1360 L910,1410 L340,1410 Z"/>
 
-  <!-- Open entry at south side -->
-  <rect x="1130" y="1336" width="320" height="88" fill="#ffffff"/>
-  <line x1="1130" y1="1336" x2="1450" y2="1336" stroke="#0f172a" stroke-width="8"/>
+  <!-- Upper wall carve-out / look-out (not passage) -->
+  <rect x="620" y="518" width="600" height="70" class="open"/>
+  <text x="640" y="500" class="note">Wall carve-out / look-out facing living room</text>
 
-  <!-- Left run (sink/dishwasher/pass-through side) -->
-  <rect x="470" y="510" width="250" height="780" class="counter"/>
-  <rect x="490" y="1070" width="210" height="180" class="appliance"/>
-  <text x="500" y="1168" class="note">Dishwasher</text>
-  <rect x="490" y="850" width="210" height="170" class="appliance"/>
-  <text x="560" y="940" class="note">Sink</text>
+  
+  <!-- 14 ft fridge-side run sequence labels -->
+  <text x="430" y="610" class="note">Wall</text>
+  <text x="760" y="610" class="note">Carve-out</text>
+  <text x="1270" y="610" class="note">Fridge bay back wall</text>
+  <text x="1635" y="610" class="note">Pathway opening to living room</text>
+  <text x="1960" y="610" class="note">Continuing wall (eat-in side)</text>
 
-  <!-- Right run (fridge + counter) -->
-  <rect x="1800" y="510" width="250" height="780" class="counter"/>
-  <rect x="1820" y="520" width="210" height="290" class="appliance"/>
-  <text x="1865" y="680" class="note">Fridge</text>
+  <!-- Pathway opening to living room (same wall side as carve-out) -->
+  <rect x="1650" y="518" width="180" height="70" class="open"/>
+  <text x="1655" y="500" class="note">Pathway opening to living room</text>
 
-  <!-- Rear wall appliances/cabinets zone -->
-  <rect x="780" y="470" width="930" height="220" class="counter"/>
-  <rect x="1145" y="500" width="200" height="170" class="appliance"/>
-  <text x="1185" y="595" class="note">Range</text>
+<!-- Top counter run + fridge -->
+  <rect x="520" y="690" width="760" height="110" class="zone"/>
+  <text x="710" y="760" class="note">Counter</text>
+  <text x="760" y="1320" class="note">U-shape counter setup</text>
+  <rect x="1345" y="640" width="260" height="180" class="fixture"/>
+  <text x="1380" y="745" class="note">Fridge box</text>
+  <line x1="1605" y1="585" x2="1605" y2="920" stroke="#0f172a" stroke-width="9"/>
+  <text x="1620" y="770" class="note">Fridge bay wall line</text>
 
-  <!-- Pass-through opening on left wall upper zone -->
-  <rect x="430" y="560" width="300" height="180" class="opening"/>
-  <text x="440" y="660" class="note">Pass-through opening</text>
+  <!-- Left stove block -->
+  <rect x="470" y="815" width="250" height="330" class="fixture"/>
+  <text x="550" y="1005" class="note">Stove</text>
+  <text x="430" y="1165" class="sub" transform="rotate(-90 430,1165)">8 FT SHORT SIDE RUN</text>
 
-  <!-- Labels -->
-  <text x="1010" y="390" class="zone">REAR APPLIANCE / CABINET WALL</text>
-  <text x="500" y="1460" class="zone">LEFT RUN: SINK + DISHWASHER</text>
-  <text x="1470" y="1460" class="zone">RIGHT RUN: FRIDGE + COUNTER</text>
-  <text x="1165" y="1510" class="sub">OPEN ENTRY</text>
+  <!-- Lower counter run with sink + DW (new from sketch) -->
+  <rect x="700" y="1085" width="40" height="205" class="zone"/>
+  <rect x="720" y="1120" width="780" height="170" class="zone"/>
+  <rect x="830" y="1155" width="320" height="120" class="fixture"/>
+  <text x="940" y="1235" class="note">Sink</text>
+  <rect x="1210" y="1160" width="140" height="110" class="fixture"/>
+  <text x="1223" y="1240" class="note">DW</text>
+  <text x="740" y="1210" class="note">Counter</text>
+  <text x="1398" y="1210" class="note">Counter</text>
+
+
+  <!-- Eat-in kitchen area / right zone -->
+  <rect x="1900" y="660" width="390" height="560" class="zone"/>
+  <ellipse cx="2095" cy="935" rx="140" ry="140" fill="#ffffff" stroke="#334155" stroke-width="3"/>
+  <text x="1990" y="945" class="note">Eat-in kitchen area</text>
+
+  <!-- Right window label -->
+  <text x="2390" y="980" class="note">Window</text>
+
+  <!-- Bottom window at sink wall -->
+  <rect x="900" y="1360" width="360" height="72" class="open"/>
+  <text x="995" y="1485" class="note">Window</text>
+
+  <!-- Pantry walk-in and pantry block -->
+  <text x="1515" y="1465" class="note">Pantry walk-in</text>
+  <path class="wall" d="M1610,1435 L1530,1500 L1530,1695 L2070,1695 L2070,1475 L1900,1435"/>
+  <text x="1775" y="1615" class="sub">Pantry</text>
 
   <!-- Dimension callouts -->
-  <!-- Length 14 ft -->
-  <line x1="420" y1="340" x2="420" y2="420" class="guide"/>
-  <line x1="2100" y1="340" x2="2100" y2="420" class="guide"/>
-  <line x1="460" y1="340" x2="2060" y2="340" class="dim"/>
-  <text x="1145" y="315" class="sub">14.0 ft (overall length)</text>
+  <line x1="280" y1="540" x2="340" y2="540" class="guide"/>
+  <line x1="280" y1="1410" x2="340" y2="1410" class="guide"/>
+  <line x1="280" y1="580" x2="280" y2="1370" class="dim"/>
+  <text x="205" y="980" class="sub" transform="rotate(-90 205,980)">8.0 ft short side run (stove + sink wall)</text>
 
-  <!-- Width 8 ft -->
-  <line x1="330" y1="420" x2="420" y2="420" class="guide"/>
-  <line x1="330" y1="1380" x2="420" y2="1380" class="guide"/>
-  <line x1="330" y1="460" x2="330" y2="1340" class="dim"/>
-  <text x="250" y="940" class="sub" transform="rotate(-90 250,940)">8.0 ft (overall width)</text>
+  <line x1="340" y1="455" x2="340" y2="540" class="guide"/>
+  <line x1="2360" y1="455" x2="2360" y2="540" class="guide"/>
+  <line x1="380" y1="455" x2="2320" y2="455" class="dim"/>
+  <text x="1240" y="430" class="sub">14.0 ft run (fridge-side wall sequence)</text>
 
-  <!-- Entry opening width approx -->
-  <line x1="1130" y1="1470" x2="1130" y2="1338" class="guide"/>
-  <line x1="1450" y1="1470" x2="1450" y2="1338" class="guide"/>
-  <line x1="1160" y1="1470" x2="1420" y2="1470" class="dim"/>
-  <text x="1180" y="1530" class="sub">~2.7 ft entry opening</text>
-
-  <!-- Legend -->
-  <rect x="150" y="1630" width="2700" height="230" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
-  <text x="210" y="1705" class="sub">Legend</text>
-  <rect x="210" y="1730" width="50" height="24" class="counter"/>
-  <text x="280" y="1750" class="note">Counter/cabinet footprint</text>
-  <rect x="210" y="1775" width="50" height="24" class="appliance"/>
-  <text x="280" y="1795" class="note">Appliance footprint (diagrammatic)</text>
-  <rect x="1090" y="1775" width="50" height="24" class="opening"/>
-  <text x="1160" y="1795" class="note">Opening (pass-through / entry)</text>
-  <text x="210" y="1845" class="note">Note: final installer should field-verify all dimensions before material order.</text>
+  <rect x="150" y="1760" width="2700" height="130" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="210" y="1835" class="note">Legend: yellow=openings (living-room opening + carve-out), blue=counter zones, gray=fixtures/appliances. Diagram intended as RFQ visual aid.</text>
 </svg>
