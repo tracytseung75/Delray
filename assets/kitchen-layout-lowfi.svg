@@ -53,7 +53,7 @@
   <rect x="1345" y="640" width="260" height="180" class="fixture"/>
   <text x="1380" y="745" class="note">Fridge box</text>
   <line x1="1605" y1="585" x2="1605" y2="920" stroke="#0f172a" stroke-width="9"/>
-  <text x="1620" y="770" class="note">Fridge bay wall line</text>
+  <text x="1640" y="860" class="note" transform="rotate(-90 1640,860)">Fridge bay wall line</text>
 
   <!-- Left stove block -->
   <rect x="470" y="815" width="250" height="330" class="fixture"/>
